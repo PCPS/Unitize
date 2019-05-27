@@ -21,11 +21,11 @@ Gem::Specification.new do |s|
   s.add_dependency               'signed_multiset',   '~> 0.2'
   s.add_dependency               'memoizable',        '~> 0.4'
   s.add_dependency               'parslet',           '~> 1.5'
-  s.add_dependency               'dentaku',           '~> 2.0.11'
+  s.add_dependency               'dentaku',           '~> 3.3'
 
   s.add_development_dependency   'factory_girl'
   s.add_development_dependency   'byebug'
-  s.add_development_dependency   'nokogiri',          '~> 1.8.2'
+  s.add_development_dependency   'nokogiri',          '~> 1.10'
   s.add_development_dependency   'pry',               '~> 0.9'
   s.add_development_dependency   'minitest',          '~> 5.0'
   s.add_development_dependency   'rake',              '~> 10.0'
